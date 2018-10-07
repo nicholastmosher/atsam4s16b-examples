@@ -9,7 +9,7 @@ cortex-m = "0.5.7"
 cortex-m-rt = "0.6.3"
 cortex-m-semihosting = "0.3.1"
 panic-halt = "0.2.0"
-atsam4s16b-embedded-hal = { path = "../atsam4s16b-embedded-hal" }
+atsam4s16b-embedded-hal = { git = "https://github.com/nicholastmosher/atsam4s16b-embedded-hal.git" }
 
 [[bin]]
 name = "blinky"
