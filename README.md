@@ -5,16 +5,17 @@
 ## Getting Started
 
 Building for ARM targets currently requires some preview tools to be installed
-which are currently distributed in Rust's beta channel. Here's what you'll need
-to have installed:
+which are currently distributed in Rust's beta channel, but some of the examples
+require nightly, so the instructions here are to set up nightly. Here's what
+you'll need to have installed:
 
 ### Installation
 
-* Rust beta:
+* Rust nightly:
 
 ```
-rustup update beta
-rustup default beta
+rustup update nightly
+rustup default nightly
 ```
 
 * ARM toolchain needed for the atsam4s16b:
