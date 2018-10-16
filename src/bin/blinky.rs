@@ -18,10 +18,10 @@ fn main() -> ! {
     let mut led = pioa.pa22.into_output(&mut oer);
 
     loop {
-        for _ in 0..100_000 {
+        for _ in 0..500_000 {
             led.set_high();
         }
-        for _ in 0..100_000 {
+        for _ in 0..500_000 {
             led.set_low();
         }
     }
