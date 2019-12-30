@@ -2,6 +2,16 @@
 
 > A set of embedded Rust example programs for the atsam4s16b.
 
+This crate builds on two other supporting crates:
+
+* [`atsam4s16b-rs`]\: A low-level peripheral interface generated with [svd2rust].
+* [`atsam4s16b-hal`]\: An (incomplete) implementation of [embedded-hal] for the atsam4s16b.
+
+[`atsam4s16b-rs`]: https://github.com/nicholastmosher/atsam4s16b-rs
+[`atsam4s16b-hal`]: https://github.com/nicholastmosher/atsam4s16b-embedded-hal
+[svd2rust]: https://github.com/rust-embedded/svd2rust
+[embedded-hal]: https://github.com/rust-embedded/embedded-hal
+
 ## Getting Started
 
 Building for ARM targets currently requires some preview tools to be installed
